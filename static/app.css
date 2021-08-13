@@ -1,0 +1,37 @@
+#pet_card {
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 3px 3px black;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  background-color: cadetblue;
+}
+
+img {
+  width: 40%;
+  float: right;
+}
+
+ul li {
+  list-style: none;
+  font-size: large;
+}
+
+#pet_display {
+  width: 40%;
+  height: 50vh;
+  font-family: "Cairo", sans-serif;
+}
+
+#edit_pet {
+  width: 30%;
+}
+
+body {
+  background-color: grey;
+}
+
+#add {
+  width: 50%;
+}
